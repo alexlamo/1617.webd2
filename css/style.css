@@ -192,16 +192,16 @@ header {
 }
 
 #parA {
-    background-image: url('img/about.jpg');
+    background-image: url('/img/about.jpg');
 }
 #parH {
-    background-image: url('img/tomato.jpg');
+    background-image: url('/img/tomato.jpg');
 }
 #parP {
-    background-image: url('img/portfolio.jpg');
+    background-image: url('/img/portfolio.jpg');
 }
 #parC {
-    background-image: url('img/contact.jpeg');
+    background-image: url('/img/contact.jpeg');
 }
 
 .wrapper1{ 
@@ -647,41 +647,18 @@ li {
 }
 
 #booklet {
-    background-image: url(img/booklet2.JPG);
+    background-image: url(/img/booklet2.JPG);
 }
 #poster {
-    background-image: url(img/poster.JPG);
+    background-image: url(/img/poster.JPG);
 }
 #tabel {
-    background-image: url(img/tabel.JPG);
+    background-image: url(/img/tabel.JPG);
 }
 #icons {
-    background-image: url(img/icons.JPG);
+    background-image: url(/img/icons.JPG);
 }
-# {
-    background-image: url();
-}
-# {
-    background-image: url();
-}
-# {
-    background-image: url();
-}
-# {
-    background-image: url();
-}
-# {
-    background-image: url();
-}
-# {
-    background-image: url();
-}
-# {
-    background-image: url();
-}
-# {
-    background-image: url();
-}
+
     .wrapperPort a{
         text-decoration: none;
     }
