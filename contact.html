@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Website</title>
+</head>
+
+<body>
+
+<header>
+        <a href="index.html">
+        <img id="logo" src="img/shape_logo2.png" alt=""> 
+    </a>
+        <a href="https://www.twitter.com/"><img id="twitter" src="img/twitter.png" alt=""></a>
+        <a href="https://www.facebook.com/"><img id="fb" src="img/fb.png" alt=""></a>
+  <div id="menuToggle">   
+      <div class="topnav" id="unfold">
+         <a class="firstNav" href="contact.html">Contact</a>
+         <a class="secondNav" href="index.html">Home</a>
+         <a class="thirdNav" href="about.html">About</a>
+         <a class="fourthNav" href="portfolio.html">Portfolio</a>
+         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+  </div>
+
+      <div id="menuToggleDesk">   
+      <div class="topnav">
+         <a class="firstNav" href="index.html">Home</a>
+         <a class="secondNav" href="about.html">About</a>
+         <a class="thirdNav" href="portfolio.html">Portfolio</a>
+         <a id="currentTab" class="fourthNav" href="contact.html">Contact</a>
+      </div>
+  </div>
+
+</header>
+  
+<div class="parallax" id="parC"></div>
+
+   
+<div id="wrapperContact">
+    <div class="contact">
+        <h1> Contacteer ons</h1>
+        <label for="fname">Voornaam</label>
+        <input type="text" id="fname" name="firstname" placeholder="Jouw voornaam..">
+
+        <label for="lname">Achternaam</label>
+        <input type="text" id="lname" name="lastname" placeholder="Jouw achternaam..">
+
+        <label for="email">E-mail</label>
+        <input type="text" id="email" name="email" placeholder="shape@hotmail.com">
+
+        <label for="subject">Onderwerp</label>
+        <textarea id="subject" name="subject" placeholder="Schrijf hier.." style="height:200px"></textarea>
+
+        <input onclick="myFunction()" type="submit" value="Verzend">
+
+      </form>
+    </div>
+    
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.146459085175!2d3.6678990155739433!3d51.08730454915247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c370362705fc21%3A0x47f9e1d923e07a64!2sCampus+Mariakerke+Arteveldehogeschool!5e0!3m2!1snl!2sbe!4v1495794512886" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    
+</div>
+
+<footer>
+
+</footer>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+    <div id="arrow">&#8679</div>
+</button>
+
+<script id="arrow" src="js/scripts.js"></script>
+
+
+</body>
+</html>
