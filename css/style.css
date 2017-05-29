@@ -195,7 +195,7 @@ header {
     background-image: url('/img/about.jpg');
 }
 #parH {
-    background-image: url('');
+    background-image: url('/img/tomato.jpg');
 }
 #parP {
     background-image: url('/img/portfolio.jpg');
@@ -265,7 +265,7 @@ header {
    min-height: 18em;
 }
 #one {
-  background-image: url('img/team.jpeg');
+  background-image: url('/img/team.jpeg');
   background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -377,7 +377,7 @@ header {
 
 
 #four {
-  background-image: url('img/workspace.jpg');
+  background-image: url('/img/workspace.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
