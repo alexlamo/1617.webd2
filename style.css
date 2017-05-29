@@ -647,16 +647,16 @@ li {
 }
 
 #booklet {
-    background-image: url(/img/booklet2.JPG);
+    background-image: url(img/booklet2.JPG);
 }
 #poster {
-    background-image: url(/img/poster.JPG);
+    background-image: url(img/poster.JPG);
 }
 #tabel {
-    background-image: url(/img/tabel.JPG);
+    background-image: url(img/tabel.JPG);
 }
 #icons {
-    background-image: url(/img/icons.JPG);
+    background-image: url(img/icons.JPG);
 }
 
     .wrapperPort a{
